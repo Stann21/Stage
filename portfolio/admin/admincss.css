@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "ABeeZee-Regular",  Verdana, Arial, Impact !important;
+}
+
+@font-face{
+    font-family: "ABeeZee-Regular";
+    src: url(../font/ABeeZee-Regular.otf);
+}
+
+textarea.cke_source {
+	background-color: #000 !important;
+}
+
+.inloglabel {
+	width: 150px;
+}
+
+.adminblok {
+    padding-bottom: 30px;
+}
+
+.radiolabel {
+    float: left;
+    clear: both;
+}
+
+.th0 {
+	height: 0px;
+	width: 0px;
+}
+
+.glyphicon {
+	padding: 3px;
+	font-size: 20px;
+}
+
+.hulpimg {
+	padding-right: 15px;
+}
+
+.helpimg {
+	cursor: pointer;
+}
+
+/* Teksten */
+.buttontekst {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	float: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.succesvol {
+	text-align: center;
+	font-size: 16px;
+	background-color: green;
+	padding: 10px;
+	display: block;
+	margin: 25px auto;
+	color: #fff;
+}
+
+.error {
+	text-align: center;
+	font-size: 16px;
+	background-color: red;
+	padding: 10px;
+	width: 100%;
+	max-width: 300px;
+	display: block;
+	color: #fff;
+}
+
+#inlogerror {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.Input {
+	color: #353535;
+}
+
+/* Projectaanpassen */
+.editblok {
+	height: 250px;
+}
+
+/* Coveraanpassen */
+.coveraanpassen {
+	width: 75%;
+}
+
+/* Imgdelete pagina */
+.imgvak {
+	padding-top: 50px;
+	height: 400px;
+}
+
+.imgbutton {
+	position: absolute !important;
+	bottom: 0;
+}
+
+.thumbnail {
+    width: 200px;
+	max-height: 200px;
+}
+
+@media only screen and (max-width : 550px) {
+	.thumbnail {
+		width: 150px;
+		max-height: 150px;
+	}
+	
+	.imgvak {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	.thumbnail {
+		width: 100px;
+		max-height: 100px;
+	}
+	
+	.tekst {
+		font-size: 10px;
+	}
+}
+
+/* Adminpagina */
+
+.vak {
+	text-align: center;
+	border: 1px solid #000;
+	padding: 10px;
+	background-color: #363636;
+}
+
+.vak:hover {
+	background-color: #e6e6e6;
+	color: #363636;
+}
+
+.titeltekst {
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.admincontainer {
+	padding-top: 50px;
+}
+
+/* Hulpvak */
+.inputhide {
+    display:none;
+}
+
+span#content {
+    display:none;
+}
+input#show:checked ~ span#content {
+	display:block;
+	border: 3px solid #353535;
+	padding: 15px;
+	margin-bottom: 25px;
+}

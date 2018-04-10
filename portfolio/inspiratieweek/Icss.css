@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "ABeeZee-Regular",  Verdana, Arial, Impact;
+}
+
+@font-face{
+    font-family: "ABeeZee-Regular";
+    src: url(font/ABeeZee-Regular.otf);
+}
+
+.hide {
+	display: none;
+}
