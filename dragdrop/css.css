@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+}
+
+h1 {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Boxes */
+.furniture {
+	border-left: 3px solid #000;
+	padding-top: 15px;
+}
+
+.scroll {
+	overflow-y: scroll;
+	height: 400px;
+}
+
+#category {
+	height: 200px;
+}
+
+.room {
+	background-color: lightgray;
+}
+
+.roomsize {
+	height: 650px;
+	width: 650px;
+	margin: 0 auto;
+}
+
+.imagebox {
+	border: 2px solid #ffc107;
+}
+
+.borderbottom {
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.bottommenu {
+
+}
+
+/* Text */
+.imagetext {
+	background-color: #ffc107;
+	padding: 5px;
+	text-align: center;
+	width: 100px;
+}
+
+/* Drag and drop boxes */
+
+#drag1 {
+	background-image: url("images/bed/bed1.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag2 {
+	background-image: url("images/bed/bed2.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag3 {
+	background-image: url("images/bed/bed3.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag4 {
+	background-image: url("images/bed/bed4.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag5 {
+	background-image: url("images/bed/bed5.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag6 {
+	background-image: url("images/bed/bed6.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag7 {
+	background-image: url("images/bed/bed7.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag8 {
+	background-image: url("images/bed/bed8.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag9 {
+	background-image: url("images/bed/bed9.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag10 {
+	background-image: url("images/bed/bed10.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag11 {
+	background-image: url("images/kast/kast1.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag12 {
+	background-image: url("images/kast/kast2.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag13 {
+	background-image: url("images/kast/kast3.png");
+	height: 100px;
+	width: 100px;
+}
+
+#drag14 {
+	background-image: url("images/kast/kast4.png");
+	height: 100px;
+	width: 100px;
+}
+
+/* Images */
+.catimg {
+	width: 100px;
+	margin-right: 25px;
+}
+
+/* Buttons */
+.btn-standard {
+	background-color: #ffc107;
+	border: 0px;
+}
+
+select {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+#kamerbox {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #000;
+	float: left;
+}
+
+.roombox {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #000;
+	float: left;
+}
+
+#testing {
+	background-color: yellow;
+}
